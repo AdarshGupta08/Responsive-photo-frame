@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./Sstyle.css">
+</head>
+
+<body>
+    <div class="centerhead">
+        <h1>Memory of My IAS❤️</h1>
+    </div>
+    <div class="photostored">
+        <div class="imagecont "><img src="./1.jpg" alt=""></div>
+        <div class="imagecont "><img src="./2.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./3.jpg" alt=""></div>
+        <div class="imagecont "><img src="./4.jpg" alt=""></div>
+        <div class="imagecont "><img src="./5.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./6.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./7.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./8.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./9.jpg" alt=""></div>
+        <div class="imagecont "><img src="./10.jpg" alt=""></div>
+        <div class="imagecont big"><video src="./11.mp4" autoplay loop muted></video></div>
+        <div class="imagecont big"><img src="./12.jpg" alt=""></div>
+        <div class="imagecont "><img src="./13.jpg" alt=""></div>
+        <div class="imagecont "><img src="./14.jpg" alt=""></div>
+        <div class="imagecont big"><video src="./15.mp4" autoplay loop muted></video></div>
+        <div class="imagecont big"><video src="./16.mp4" autoplay loop muted></video></div>
+        <div class="imagecont big"><img src="./17.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./18.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./19.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./20.jpg" alt=""></div>
+        <div class="imagecont "><img src="./21.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./22.jpg" alt=""></div>
+        <div class="imagecont big"><img src="./23.jpg" alt=""></div>
+    </div>
+    <script>
+        const images = document.querySelectorAll('.imagecont ');
+        images.forEach(image => {
+            image.addEventListener('click', function () {
+                this.classList.toggle('big');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
